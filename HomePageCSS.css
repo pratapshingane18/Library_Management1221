@@ -1,0 +1,38 @@
+         .leftside, .rightside{
+            height: 50vh;
+            width:100%;
+        }
+
+
+        @media screen and (min-width: 768px){
+            .leftside,.rightside{
+                height: 100vh;
+            }
+        }
+
+        
+        .leftside{
+            background-image: url('Front-img.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+
+        }
+
+        .rightside{
+
+            background-image: url('login-img.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            
+            
+              
+        }
+
+        form{
+            text-align: center;
+            left      : 50%;
+            top       : 50%;
+            position  : absolute;
+            transform : translate(-50%, -50%);
+        }
+    
